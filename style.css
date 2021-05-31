@@ -1,3 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: peachpuff;
+  background-color: #121725;
+  font-family: "Chivo";
+  color: white;
+}
+.container {
+  display: flex;
+  margin: 10rem;
+}
+
+/* logo  */
+
+.logo {
+  margin-bottom: 8rem;
+}
+
+/* main content */
+
+.main-content {
+  margin-left: 5rem;
+  margin-right: 0;
+  width: 40%;
+}
+
+.content {
+  width: 160%;
+  height: 100%;
+  z-index: 10;
+  background-color: #121725;
+  padding-top: 3rem;
+}
+
+.content h1 {
+  text-transform: uppercase;
+  color: #54e6af;
+  font-weight: 300;
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 50rem;
+}
+
+.content h1 span {
+  color: white;
+}
+
+.content p {
+  margin-bottom: 3rem;
+  z-index: 10;
+}
+
+/* input styles */
+
+.input {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+input[type="email"] {
+  width: 30rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+  border-radius: 30px;
+  background-color: #2e344a;
+  color: white;
+  outline: none;
+  border-width: 0;
+}
+
+input[type="submit"] {
+  height: 3rem;
+  width: 15rem;
+  border: 2px solid #54e6af;
+  background-color: #54e6af;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 15rem;
+  cursor: pointer;
+}
+
+/* podcast images  */
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4rem;
+}
+
+.images img {
+  height: 2rem;
+}
+
+/* hero image  */
+
+.image-content {
+  z-index: -1;
+  width: 60%;
 }
