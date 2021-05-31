@@ -5,9 +5,11 @@ const form = document.getElementById("form");
 const validate = () => {
   form.addEventListener("submit", (e) => {
     let messages = [];
-    if (email.value == "" || email.value == null) {
+    if (email.value == "" || email.value == null || email.value.) {
       messages.push("Oops! That doesn't look like an email address");
     }
+
+
 
     if (messages.length > 0) {
       e.preventDefault();
@@ -17,11 +19,3 @@ const validate = () => {
 };
 
 validate();
-
-const submit = () => {
-  form.addEventListener("submit", () => {
-    alert("Access Requested, we will get in touch soon");
-  });
-};
-
-submit();
