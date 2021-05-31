@@ -1,2 +1,2 @@
-<h1>Link not live yet. Adding spotify Api first</h1>
-<a href="">Link to demo</a>
+<h1>Not responsive yet, Adding spotify Api next</h1>
+<a href="https://podcast-spotify-api.vercel.app/">Link to demo</a>
