@@ -35,7 +35,6 @@ body {
   height: 100%;
   z-index: 10;
   background-color: #121725;
-  padding-top: 3rem;
 }
 
 .content h1 {
@@ -92,6 +91,15 @@ input[type="submit"] {
   left: 15rem;
   cursor: pointer;
 }
+form {
+  margin-bottom: 1rem;
+}
+
+.invalid {
+  text-align: center;
+  padding: 0 3rem;
+  color: #fb3640;
+}
 
 /* podcast images  */
 .images {
@@ -109,4 +117,8 @@ input[type="submit"] {
 .image-content {
   z-index: -1;
   width: 60%;
+}
+
+.image-content img {
+  height: 100%;
 }
