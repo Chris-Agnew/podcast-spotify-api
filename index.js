@@ -5,11 +5,9 @@ const form = document.getElementById("form");
 const validate = () => {
   form.addEventListener("submit", (e) => {
     let messages = [];
-    if (email.value == "" || email.value == null || email.value.) {
+    if (email.value == "" || email.value == null) {
       messages.push("Oops! That doesn't look like an email address");
     }
-
-
 
     if (messages.length > 0) {
       e.preventDefault();
