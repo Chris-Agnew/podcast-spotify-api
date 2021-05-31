@@ -56,6 +56,11 @@ body {
 .content p {
   margin-bottom: 3rem;
   z-index: 10;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #c2cbe5;
+  line-height: 1.7rem;
+  width: 70%;
 }
 
 /* input styles */
