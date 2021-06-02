@@ -255,7 +255,7 @@ form {
   }
   #email {
     margin-left: 2rem;
-    width: 17rem;
+    /* width: 17rem; */
   }
   input[type="submit"] {
     height: 4rem;
