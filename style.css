@@ -125,11 +125,6 @@ form {
   width: 60%;
 }
 
-.image-content img {
-  height: 100%;
-  object-fit: cover;
-}
-
 @media screen and (max-width: 500px) {
   .container {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
@@ -203,6 +198,7 @@ form {
   .images {
     justify-content: left;
     margin-right: 1.4rem;
+    margin-left: 4rem;
   }
   .images img {
     height: 1.2rem;
@@ -248,7 +244,6 @@ form {
   .images {
     display: flex;
     justify-content: space-between;
-    margin-left: 2rem;
   }
   .images img {
     height: 1.4rem;
