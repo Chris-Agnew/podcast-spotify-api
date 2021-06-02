@@ -136,6 +136,7 @@ form {
       url("./images/mobile/image-host.jpg");
     background-repeat: no-repeat;
     margin: 0;
+    background-size: 100%;
   }
 
   .tablet {
