@@ -126,7 +126,8 @@ form {
 }
 
 .image-content img {
-  height: 100%;
+  height: 90%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 500px) {
@@ -180,7 +181,7 @@ form {
     margin-top: 2rem;
   }
   .desktop {
-    display: none;
+    /* display: none; */
   }
   .mobile-button {
     height: 4rem;
@@ -196,6 +197,7 @@ form {
   }
   input {
     margin-right: 1.5rem;
+    margin-left: 1.5rem;
   }
   .images {
     justify-content: left;
@@ -212,6 +214,7 @@ form {
 @media screen and (max-width: 1100px) {
   .container {
     margin: 0;
+    padding: 2rem;
     width: 100vw;
     height: 100vh;
   }
@@ -222,9 +225,7 @@ form {
   .mobile {
     display: none;
   }
-  .mobile-button {
-    display: none;
-  }
+
   .content {
     width: 150%;
   }
@@ -262,24 +263,24 @@ form {
     border: 2px solid #54e6af;
     background-color: #54e6af;
     border-radius: 30px;
-    position: absolute;
-    top: 0;
-    left: 15rem;
-    cursor: pointer;
+    /* position: absolute; */
+    /* top: 0; */
   }
-  body {
-    overflow-y: hidden;
-  }
+
   .desktop-image {
-    height: 4rem;
+    display: none;
   }
-  .desktop-image img {
-    height: 4rem;
-    object-fit: cover;
+
+  .mobile-button {
+    display: none;
+  }
+
+  #email {
+    margin-left: 7rem;
   }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1200px) {
   .tablet {
     display: none;
   }
