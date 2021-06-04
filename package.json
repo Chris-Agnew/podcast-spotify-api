@@ -1,0 +1,22 @@
+{
+  "name": "podcast-website",
+  "version": "1.0.0",
+  "description": "<h1>working on adding Spotify api next</h1> <a href=\"https://podcast-spotify-api.vercel.app/\">Link to demo</a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chris-Agnew/podcast-spotify-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chris-Agnew/podcast-spotify-api/issues"
+  },
+  "homepage": "https://github.com/Chris-Agnew/podcast-spotify-api#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
