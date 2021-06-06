@@ -19,17 +19,20 @@
             Casts and more!
           </p>
           <div class="input">
-            <form id="form">
+            <form id="form" action="podcasts.html" method="POST">
               <input type="email" placeholder="Email Address" id="email" />
-
-              <input type="submit" value="Request Access" class="desktop" />
+              <a href="podcasts.html">
+                <input type="submit" value="Request Access" class="desktop" />
+              </a>
             </form>
-            <form>
-              <input
-                type="button"
-                value="Request Access"
-                class="mobile-button"
-              />
+            <form action="podcasts.html" method="POST">
+              <a href="podcasts.html">
+                <input
+                  type="button"
+                  value="Request Access"
+                  class="mobile-button"
+                />
+              </a>
             </form>
             <span id="error" class="invalid"></span>
           </div>

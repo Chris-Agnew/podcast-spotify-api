@@ -1,10 +1,12 @@
+const query = "darude";
+
 const fetchApi = async () => {
   const results = await fetch(
-    "https://api.spotify.com/v1/browse/new-releases",
+    `https://api.spotify.com/v1/search?q=${query}:&type=artist`,
     {
       headers: {
         Authorization:
-          "Bearer BQBf4VaIJKCe4ZHQ8fNBtO92swzUGgw4eXq3jQx_3yvoSuUiB6Hrr9bhFZVbDXJwAOsAPYOpp3S8t5x_jco_H2EkY6t1U2FVMXT5MZDVsHUwivoKtUu_VXf49JVAIPqm6u_vvwineH7lBhY2L0hxfqJzwc4PcSvkLKo",
+          "Bearer BQBQ8-IlVTjHETfNfLi3kqskCEl-RIB7XG8UgI1Opd_q54LVIi5HiX9gBo0YTMKI5kmLfPkrLfmlxcxypYwfoTSMcM68YrZeJClahYTGyboXhfLWlKy0ilq1cPsCQOB6x36_i9q64rSNR3jAMiXM9QrXop4TbI32wCM",
       },
     }
   )
